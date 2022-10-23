@@ -1,0 +1,264 @@
+@media screen and (max-width: 1280px) {
+    .res_footer{
+        display: flex;
+    }
+    .res_footer .res_timer{
+        width: 40%;
+    }
+    #res_disable, .timer{
+        display: none;
+    }
+    .img img{
+        width: 300px;
+    }
+    .course h2{
+        max-width: 100%;
+    }
+    .study_img{
+        display: block;
+        text-align: center;
+    }
+    .study img{
+        margin: 40px 0;
+    }
+    .discount::before{
+        height: 50%;
+        top: 5%;
+    }
+    .discount2{
+        margin-top: 50px;
+    }
+    #emp_image img{
+        width: 200px;
+    }
+    #basic{
+        flex-direction: column;
+    }
+    #basic img{
+        width: 100%;
+    }
+    .basic_text{
+        margin: 30px 0;
+    }
+    .basic_icons{
+        top: 40px;
+        left: 0;
+    }
+    .speakers{
+        margin-top: 800px;
+    }
+    .faq{
+        flex-direction: column;
+    }
+    .faq h1{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1900px){
+    body, footer{
+        padding: 50px 300px 90px;
+    }
+    footer{
+        left: -300px;
+    }
+}
+@media screen and (max-width: 1800px){
+    body, footer{
+        padding: 50px 250px 90px;
+    }
+    footer{
+        left: -250px;
+    }
+}
+@media screen and (max-width: 1700px){
+    body, footer{
+        padding: 50px 200px 90px;
+    }
+    footer{
+        left: -200px;
+    }
+    .employement{
+        margin-left: -7.5vw;
+    }
+}
+@media screen and (max-width: 1600px){
+    body, footer{
+        padding: 50px 150px 90px;
+    }
+    footer{
+        left: -150px;
+    }
+    .employement{
+        margin-left: -5vw;
+    }
+    .late1, .late2{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1500px){
+    body, footer{
+        padding: 50px 100px 90px;
+    }
+    footer{
+        left: -100px;
+    }
+    .employement{
+        margin-left: -2.5vw;
+    }
+}
+@media screen and (max-width: 1400px){
+    body, footer{
+        padding: 50px 50px 90px;
+    }
+    footer{
+        left: -50px;
+    }
+    .employement{
+        margin-left: 0;
+    }
+    #emp_image img{
+        width: 300px;
+    }
+    .comment{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .later{
+        flex-direction: column;
+    }
+    .late1{
+        width: 100%;
+    }
+    .late2{
+        margin-top: 40px;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1100px){
+    .employement{
+        width: 100%;
+    }
+    .res_timer{
+        display: none;
+    }
+    .img img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 972px){
+    .resume h1#resume{
+        font-size: 40px;
+    }
+    .employement-fourth-container-first-container{
+        min-width: 200px;
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 900px){
+    #emp_image img{
+        width: 200px;
+    }
+    .late2{
+        width: 90%;
+    }
+    .year{
+        flex-direction: column-reverse;
+    }
+    .year img{
+        margin: 30px auto;
+    }
+    .comment{
+        width: 600px;
+    }
+    .comment_img{
+        flex-direction: column;
+    }
+    .stars{
+        margin-bottom: 50px;
+    }
+    .question{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .employement-fourth-container{
+        height: 800px;
+    }
+    .img img{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 750px){
+    .certificate{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    body, footer{
+        padding: 50px 20px 90px;
+    }
+    footer{
+        left: -20px;
+    }
+    #job{
+        flex-direction: column;
+    }
+    .text{width: 100%;}
+    .job{
+        height: 130%;
+    }
+    .cookie{
+        flex-direction: column;
+    }
+    .cookie p{
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 650px){
+    .text h1{
+        font-size: 40px;
+    }
+    .comment{
+        width: 400px;
+    }
+    .practical{
+        flex-direction: column;
+    }
+    .pr2{
+        margin-top: 20px;
+    }
+    #first_img{
+        flex-direction: column;    
+        align-items: baseline;
+    }
+    #img_pay{
+        margin: 30px 0 30px 120px;
+    }
+}
+@media screen and (max-width: 550px){
+    .question{
+        width: 300px;
+    }
+    .employement-first-container{
+        flex-direction: column;
+    }
+    .employement-first-container-div{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 460px){
+    .text h1{
+        font-size: 30px;
+    }
+    .speaker{
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .new1, .new2{
+        flex-direction: column;
+    }
+}
